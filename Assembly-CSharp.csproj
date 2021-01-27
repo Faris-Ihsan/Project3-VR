@@ -161,9 +161,9 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\MyData\Scripts\OnHover.cs" />
-     <Compile Include="Assets\MyData\Scripts\RotateCube.cs" />
      <Compile Include="Assets\MyData\Scripts\deskripsi.cs" />
      <Compile Include="Assets\MyData\Scripts\playerMaju.cs" />
+     <Compile Include="Assets\MyData\Scripts\tutorial.cs" />
      <Compile Include="Assets\RestClient\DemoScene\Scripts\MainScript.cs" />
      <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\Photo.cs" />
      <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\Post.cs" />

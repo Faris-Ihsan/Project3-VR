@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/faris/Aplikasi/UnityEditor/ProjectVR/PracticeVR1/Temp/gradleOut/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/home/faris/.gradle/caches/transforms-2/files-2.1/3c8510fda0d2ef4cc117064ac04b4e14/res/values-v19/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "148",
+                        "endColumns": "56",
+                        "endOffsets": "204"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -17,9 +17,7 @@ public class deskripsi : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        //set text faris
-        //textnamaruangan.text = x.ToString("F0")+y.ToString("F0")+z.ToString("F0");
-        //textnamaruangan.text = "Faris");
+
     }
 
     // Update is called once per frame
@@ -29,7 +27,7 @@ public class deskripsi : MonoBehaviour
 
         if (check == posisiruangan)
         {
-            AAAAAAAAAAAAAAAAAA();
+            ambilDataNamaDeskripsiRuangan();
         }else
         {
             hilangkanCanvas();
@@ -50,12 +48,12 @@ public class deskripsi : MonoBehaviour
         z = pos.z;
         Vector3 point = new Vector3(x,y,z);
         
-        //print posisi ke text UI
+        //print posisi ke text UI (canvas)
         textposisi.text = "Posisi(x,y,z): "+ cetak;
 
 
-        //Ambil Data Nama Ruangan
-        Debug.Log(check);
+        //Ambil Data Posisi Ruangan dari firebase menggunakan REST API
+        //Debug.Log(check);
        
         RestClient.Get("https://vr-proyek3-default-rtdb.firebaseio.com/ga/" + check + "/posisi.json").Then(response => 
         { 
@@ -65,8 +63,10 @@ public class deskripsi : MonoBehaviour
          
     }
 
-    void AAAAAAAAAAAAAAAAAA()
+    //Method yang untuk mengambil data nama dan deskripsi ruangan.
+    void ambilDataNamaDeskripsiRuangan()
     {
+        //Ambil Data nama ruangan dari firebase menggunakan REST API
          RestClient.Get("https://vr-proyek3-default-rtdb.firebaseio.com/ga/" + check + "/nama_ruangan.json").Then(response => 
         { 
             if (response.Text == "null")
@@ -80,7 +80,7 @@ public class deskripsi : MonoBehaviour
             }
         });
 
-        //Ambil data Deskripsi Ruangan
+        //Ambil data Deskripsi Ruangan dari firebase menggunakan REST API
         RestClient.Get("https://vr-proyek3-default-rtdb.firebaseio.com/ga/" + check + "/deskripsi_ruangan.json").Then(response => 
         { 
             if (response.Text == "null")
@@ -93,7 +93,7 @@ public class deskripsi : MonoBehaviour
         });
     }
 
-
+    //Method untuk menghilangkan canvas (tempat untuk text informasi ruangan)
     void hilangkanCanvas()
     {
         foreach (GameObject go in objects)
@@ -102,6 +102,7 @@ public class deskripsi : MonoBehaviour
         }
     }
 
+    //Method untuk memunculkan canvas (tempat untuk text informasi ruangan)
     void munculkanCanvas()
     {
         foreach (GameObject go in objects)

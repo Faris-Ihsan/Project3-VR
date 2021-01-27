@@ -6,9 +6,9 @@ ScriptsOnlyBuild:
     - GvrPointerPhysicsRaycaster
     - GvrReticlePointer
     - OnHover
-    - RotateCube
     - deskripsi
     - playerMaju
+    - tutorial
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -17,7 +17,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -49,8 +48,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -67,8 +64,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11306}
     - Class: 114
       Script: {instanceID: 11518}
-    - Class: 114
-      Script: {instanceID: 11550}
     - Class: 114
       Script: {instanceID: 11562}
     - Class: 114
@@ -92,7 +87,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13392}
     - Class: 114
-      Script: {instanceID: 13422}
+      Script: {instanceID: 15920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -228,12 +223,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: ad378d3c702645e73006a67ffef7db94
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RotateCube
   - hash:
       serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
@@ -834,7 +823,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3da40104e8065d95644548544fa0edcf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: tutorial
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /home/faris/Desktop/VR beta 0.1.2.apk
+  playerPath: /home/faris/Desktop/Project3-VR/Apk/VR-Project3.apk
