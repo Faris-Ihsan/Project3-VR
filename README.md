@@ -4,10 +4,10 @@ Project 3\
 \
 \
 Dosen Pembimbing:\
-Mohama Nurkamal Fauzan, S.T., M.T.
+Mohamad Nurkamal Fauzan, S.T., M.T.
 \
 \
 Anggota:\
 1184094 Syabriena Putri Veriane\
-1184099 Faris Muhammad Ihsan 
+1184099 Faris Muhammad Ihsan
 
