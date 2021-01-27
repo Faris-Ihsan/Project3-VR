@@ -162,6 +162,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\MyData\Scripts\OnHover.cs" />
      <Compile Include="Assets\MyData\Scripts\deskripsi.cs" />
+     <Compile Include="Assets\MyData\Scripts\playerKeluar.cs" />
      <Compile Include="Assets\MyData\Scripts\playerMaju.cs" />
      <Compile Include="Assets\MyData\Scripts\tutorial.cs" />
      <Compile Include="Assets\RestClient\DemoScene\Scripts\MainScript.cs" />
