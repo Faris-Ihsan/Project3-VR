@@ -96,6 +96,7 @@ public class deskripsi : MonoBehaviour
     //Method untuk menghilangkan canvas (tempat untuk text informasi ruangan)
     void hilangkanCanvas()
     {
+        //looping untuk setiap GameObject yang disimpan pada array objects
         foreach (GameObject go in objects)
         {
             go.SetActive(false);
@@ -105,6 +106,7 @@ public class deskripsi : MonoBehaviour
     //Method untuk memunculkan canvas (tempat untuk text informasi ruangan)
     void munculkanCanvas()
     {
+        //looping untuk setiap GameObject yang disimpan pada array objects
         foreach (GameObject go in objects)
         {
             go.SetActive(true);

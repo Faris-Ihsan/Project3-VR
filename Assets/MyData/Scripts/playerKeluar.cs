@@ -13,11 +13,14 @@ public class playerKeluar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //pemanggilan method
         keluar();
     }
 
+    //method untuk keluar apikasi 
     void keluar()
     {
+        //mengambil inputan user berupa tombol x dan tombol back (pada hp)
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
