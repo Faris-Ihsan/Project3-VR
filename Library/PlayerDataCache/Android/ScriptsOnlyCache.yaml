@@ -58,13 +58,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11300}
+      Script: {instanceID: 11302}
     - Class: 114
       Script: {instanceID: 11304}
     - Class: 114
       Script: {instanceID: 11306}
     - Class: 114
-      Script: {instanceID: 11518}
+      Script: {instanceID: 11520}
     - Class: 114
       Script: {instanceID: 11562}
     - Class: 114
@@ -76,21 +76,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11924}
     - Class: 114
-      Script: {instanceID: 12246}
+      Script: {instanceID: 12060}
     - Class: 114
-      Script: {instanceID: 12576}
+      Script: {instanceID: 12248}
     - Class: 114
-      Script: {instanceID: 12872}
+      Script: {instanceID: 12340}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 12580}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 12876}
     - Class: 114
-      Script: {instanceID: 13392}
+      Script: {instanceID: 13006}
     - Class: 114
-      Script: {instanceID: 15920}
+      Script: {instanceID: 13050}
     - Class: 114
-      Script: {instanceID: 29822}
+      Script: {instanceID: 13394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -114,16 +114,16 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: aeb62f729c52c814dec86c47dcac1471
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -264,7 +264,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 367417109c4ba4b9e9e8ec7b0f5e97eb
+      Hash: 5830bac2be6612d4eccaf94b4f797a94
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: deskripsi
@@ -396,6 +396,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 3da40104e8065d95644548544fa0edcf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: tutorial
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -445,6 +451,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: playerKeluar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
@@ -480,7 +492,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: e27b896c16e4f47df8822fa13abc007c
+      Hash: f132e78e9a4b9aff794e80412b9903d8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playerMaju
@@ -826,18 +838,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 3da40104e8065d95644548544fa0edcf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: tutorial
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: playerKeluar
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

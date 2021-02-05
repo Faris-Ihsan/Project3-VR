@@ -9,7 +9,7 @@ public class deskripsi : MonoBehaviour
     public Text textnamaruangan, textposisi, textdeskripsiruangan;
     public float x, y, z;
     public bool canvas = false;
-    public string check, posisiruangan;
+    public string check, posisiruangan, check2;
 
     public GameObject[] objects;    
 
@@ -28,6 +28,9 @@ public class deskripsi : MonoBehaviour
         if (check == posisiruangan)
         {
             ambilDataNamaDeskripsiRuangan();
+        }else if (check2 == posisiruangan)
+        {
+            ambilDataNamaDeskripsiRuangan();
         }else
         {
             hilangkanCanvas();
@@ -41,6 +44,7 @@ public class deskripsi : MonoBehaviour
         var pos = GameObject.Find("Player").transform.position;
         var cetak = x.ToString("F0")+ "," +y.ToString("F0")+ "," +z.ToString("F0");
         check = x.ToString("F0")+y.ToString("F0")+z.ToString("F0");
+        check2 = "\"" + check + "\"";
         
         //memasukan posisi ke dalam variable x,y,z yang berupa float
         x = pos.x;
@@ -57,6 +61,7 @@ public class deskripsi : MonoBehaviour
        
         RestClient.Get("https://vr-proyek3-default-rtdb.firebaseio.com/ga/" + check + "/posisi.json").Then(response => 
         { 
+            Debug.Log(check);
             posisiruangan = response.Text;
         });
 
